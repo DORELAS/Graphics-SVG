@@ -1,0 +1,54 @@
+.lule {
+  width: 300px;
+}
+
+#petale {
+  transform: rotate(0deg);
+  transform-origin: 140px 138px;
+  transition: all 200ms linear;
+}
+
+.lule:hover #petale {
+  transform: rotate(180deg);
+}
+
+
+.petalja {
+  fill: #EF3939;
+  transition: all 200ms linear;
+}
+
+.lule:hover .petalja {
+  fill: #EF0000;
+}
+
+.koka {
+    transform: translateY(0);
+    animation: leviz 1s ease infinite alternate;
+}
+
+@-webkit-keyframes leviz {
+   
+    0% { 
+      
+        -webkit- transform: translateY(0);
+        transform: translateY(0);
+    }
+    
+    100% {
+        
+        -webkit- transform: translateY(25px);
+        transform: translateY(25px);
+    }
+    
+}
+    
+@keyframes leviz {
+    0% { 
+          transform: translateY(0);
+    }
+    
+    100% {
+        transform: translateY(25px);
+    }
+}

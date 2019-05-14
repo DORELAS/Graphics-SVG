@@ -1,0 +1,50 @@
+<svg id="lule" width="200" height="340" viewBox="0 0 280 340" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    
+    <style type="text/css">
+        
+.lule {
+  width: 300px;
+}
+
+#petale {
+  transform: rotate(0deg);
+  transform-origin: 140px 138px;
+  transition: all 200ms linear;
+}
+
+.lule:hover #petale {
+  transform: rotate(180deg);
+}
+
+
+.petalja {
+  fill: #EF3939;
+  transition: all 200ms linear;
+}
+
+.lule:hover .petalja {
+  fill: #EF0000;
+}
+
+
+
+    </style>
+        
+<rect id="kercell" width="18.4" height="180.86" x="130.8" y="159.1" fill="#7FB069"/>
+    <g id="petale" fill="#EF3939">
+        
+    <ellipse class="petalja" cx="140" cy="58.9" rx="21.7" ry="51.4" />
+    <ellipse class="petalja" cx="140" cy="215.9" rx="21.7" ry="51.4" />
+        
+    <ellipse class="petalja" cx="84.5" cy="81.9" rx="21.7" ry="51.4" transform="rotate(-45 84.435 81.926)" />
+    <ellipse class="petalja" cx="195.5" cy="192.9" rx="21.7" ry="51.4" transform="rotate(-45 195.544 193.003)" />
+        
+    <ellipse class="petalja" cx="61.5" cy="137.4" rx="51.4" ry="21.7" />
+    <ellipse class="petalja" cx="218.5" cy="137.4" rx="51.4" ry="21.7" />
+        
+    <ellipse class="petalja" cx="84.5" cy="192.9" rx="51.4" ry="21.7" transform="rotate(-45 84.587 192.984)" />
+    <ellipse class="petalja" cx="195.5" cy="81.9" rx="51.4" ry="21.7" transform="rotate(-45 195.443 81.945)"/>
+  
+    </g>
+    <circle id="nektari" cx="140" cy="137.8" r="36.4" fill="#ECE4B7" />
+</svg>
